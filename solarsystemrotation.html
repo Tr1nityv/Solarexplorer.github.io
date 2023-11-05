@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type= "text/css" href="nightime.css">
+        <title><em>The 8 Underworlds</em></title>
+        <style>
+            body {
+                margin: 0;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+            }
+            .container{
+                font-size: 15px;
+                width: 90%;
+                height: 48em;
+                position: relative;
+                top: 10vh;
+            }
+    
+            .sun {
+                position: absolute;
+                top: 3em;
+                left: 1em;
+                width: 16em;
+                height: 16em;
+                animation: rotate;
+                animation-duration: 2000s;
+                background: linear-gradient(to bottom, rgba(255, 247, 0, 1) 0%, rgba(255, 102, 0, 1) 70%);
+                border-radius: 50%;
+                border: 0.2em solid #FFA500;
+            }
+
+            .mercury, .venus, .earth, .mars, .jupiter, .saturn, .uranus, .neptune{
+                position: absolute;
+                border-style: solid;
+                border-width: 0.1em 0.1em 0 0;
+                border-radius: 50%;
+                top: 5em; /* This adjust the planets distance from the sun*/
+                left: 9em;
+            }
+
+            .mercury{
+                width: 5em; 
+                height: 5em;
+                animation: orbit;
+                animation-duration: 20s;
+                animation-timing-function: linear;
+                background: radial-gradient(circle at 50% 50%, #C8C8C8, #646464);
+                transform: translateX(10em);
+                border-color: #6E6E6E;
+            }
+
+            .venus{
+                width: 6.3em; /*This adjusts the planet's size, relative to its actual size*/
+                height: 6.3em;
+                animation: orbit;
+                animation-duration: 27s;
+                animation-timing-function: linear;
+                background: radial-gradient(circle at 50% 50%, #FFD700, #FFA500);
+                transform: translateX(18em);
+                border-color: #FFD700;
+            }
+
+            .earth{
+                width: 6.9em; 
+                height: 6.9em;
+                animation: orbit;
+                animation-duration: 30s;
+                animation-timing-function: linear;
+                background: linear-gradient(to bottom, #0099FF, #00CC33, #0033CC);
+                transform: translateX(26em);
+                border-color: #00A1D9;
+            }
+
+            .mars{
+                width: 5.5em;
+                height: 5.5em;
+                animation: orbit;
+                animation-duration: 36s;
+                animation-timing-function: linear;
+                background: linear-gradient(to bottom, #FF6347, #FF4500, #8B4513);
+                transform: translateX(35em);
+                border-color: #FF4500;
+            }
+
+            .jupiter{
+                width: 12.4em;
+                height: 12.4em;
+                animation: orbit;
+                animation-duration: 62s;
+                animation-timing-function: linear;
+                background: radial-gradient(circle at 50% 50%, #FFD700, #FFA500, #8B4513);
+                transform: translateX(42em);
+                border-color: #FFA500;
+            }
+
+            .saturn{
+                width: 10.8em;
+                height: 10.8em;
+                animation: orbit;
+                animation-duration: 75s;
+                animation-timing-function: linear;
+                background: radial-gradient(circle at 50% 50%, #F0E68C, #CD853F, #8B4513);
+                transform: translateX(56em);
+                border-color: #CD853F;
+            }
+
+            .uranus{
+                width: 5.8em;
+                height: 5.8em;
+                animation: orbit;
+                animation-duration: 90s;
+                animation-timing-function: linear;
+                background: radial-gradient(circle at 50% 50%, #00BFFF, #1E90FF, #4682B4, #87CEFA);
+                transform: translateX(69em);
+                border-color: #1E90FF;
+            }
+
+            .neptune{
+                width: 5.2em;
+                height: 5.2em;
+                animation: orbit;
+                animation-duration: 110s;
+                animation-timing-function: linear;
+                background: radial-gradient(circle at 50% 50%, #0000FF, #000080, #4169E1, #6495ED);
+                transform: translateX(77em);
+                border-color: #000080;
+            }
+
+            @keyframes rotate{ /*This makes the planets rotate*/
+                to{
+                    transform: rotate(360deg);
+                }
+            }
+
+            @keyframes orbit{
+                to{
+                    transform: rotate(360deg);
+
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class ="container">
+            <div class= "sun"></div>
+            <div class="mercury">
+                <h3><em><br><br><br>Why did Mercury skip classes one day? <br> 
+                    Because it had a very high temperature<br>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> 
+                        I'm sorry... click for more ;</a></em></h3>
+            </div>            
+            
+            <div class="venus">
+                <h3><em><br><br><br><br>Why did Mercury skip classes one day? <br> 
+                    Because it had a very high temperature<br>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> 
+                        I'm sorry... click for more ;</a></em></h3>
+            </div>
+            
+            <div class="earth">
+                <h3><em><br><br><br><br>Why did Mercury skip classes one day? <br> 
+                    Because it had a very high temperature<br>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> 
+                        I'm sorry... click for more ;</a></em></h3>
+            </div>
+           
+            <div class="mars">
+                <h3><em><br><br><br>Why did Mercury skip classes one day? <br> 
+                    Because it had a very high temperature<br>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> 
+                        I'm sorry... click for more ;</a></em></h3>
+            </div>
+           
+            <div class="jupiter">
+                <h3><em><br><br><br><br><br><br>Why did Mercury skip classes one day? <br> 
+                    Because it had a very high temperature<br>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> 
+                        I'm sorry... click for more ;</a></em></h3>
+            </div>
+            
+            <div class="saturn">
+                <h3><em><br><br><br><br><br><br>Why did Mercury skip classes one day? <br> 
+                    Because it had a very high temperature<br>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> 
+                        I'm sorry... click for more ;</a></em></h3>
+            </div>
+           
+            <div class="uranus">
+                <h3><em><br><br><br><br>Why did Mercury skip classes one day? <br> 
+                Because it had a very high temperature<br>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> 
+                    I'm sorry... click for more ;</a></em></h3>
+            </div>
+            
+            <div class="neptune">
+                <h3><em><br><br><br>Why did Mercury skip classes one day? <br> 
+                    Because it had a very high temperature<br>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> 
+                        I'm sorry... click for more ;</a></em></h3>
+            </div>
+        </div>
+    </body>
+</html>

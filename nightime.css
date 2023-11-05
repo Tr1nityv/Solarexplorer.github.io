@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+.sun{
+    box-shadow: 0 0 3em white;
+}
+
+.mercury, .venus, .earth, .mars, .jupiter, .saturn, .uranus, .neptune{
+    border-color: whitesmoke transparent transparent transparent;
+}
+
+/*
+1. Move the stuff that don't need to be in the css to the html
+2. Make sure that the planets are the appropriate size
+3. Make sure they rotate the right wa

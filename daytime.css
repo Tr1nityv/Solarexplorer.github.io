@@ -1,0 +1,11 @@
+body{
+    background-color: whitesmoke;
+    color: black;
+}
+.sun{
+    box-shadow: 0 0 3em black;
+}
+
+.mercury, .venus, .earth, .mars, .jupiter, .saturn, .uranus, .neptune{
+    border-color: black transparent transparent transparent;
+}
